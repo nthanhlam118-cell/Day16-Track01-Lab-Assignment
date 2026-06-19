@@ -1,9 +1,9 @@
-# Day16-A20-XXXXX-NguyenThanhLam
+# Day16-2A202600625-NguyenThanhLam
 
 ## Thông tin học viên
 
-- Mã học viên: A20-XXXXX
-- Họ tên: Nguyễn Thanh Lâm
+- Mã học viên: 2A202600625
+- Họ tên: Nguyễn Thanh Lam
 - Track: AI Product Strategy
 
 ## File nộp
