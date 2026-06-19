@@ -9,7 +9,7 @@ companion-reference: Strategyn_JTBD_Playbook.pdf (giảng viên gửi kèm)
 
 # Lab 2 — JTBD Project Analysis / Dùng JTBD để soi lại dự án nhóm
 
-**Tên dự án / sản phẩm:** _______________  
+**Tên dự án / sản phẩm:** Hệ thống phát hiện thao túng thị trường bằng AI (AI Market Manipulation Detection)
 
 > Đây là **file duy nhất** của Lab 2.  
 > File này đồng thời đóng vai trò:
@@ -92,17 +92,17 @@ Phần lớn dự án nhóm viết quá rộng ở bước này, rồi sau đó 
 
 ### Khoanh đúng 1 lát cắt theo 4 điểm
 
-- [ ] **1 nhóm người dùng chính**
-- [ ] **1 hoàn cảnh / tình huống rõ**
-- [ ] **1 job cốt lõi**
-- [ ] **1 workflow đủ cụ thể để vẽ ra được**
+- [x] **1 nhóm người dùng chính**
+- [x] **1 hoàn cảnh / tình huống rõ**
+- [x] **1 job cốt lõi**
+- [x] **1 workflow đủ cụ thể để vẽ ra được**
 
 ### Điền nhanh trước khi làm
 
-- **Dự án của nhóm tôi là:** ___________________________________
-- **Lát cắt tôi chọn để phân tích hôm nay là:** ___________________________________
+- **Dự án của nhóm tôi là:** Xây dựng hệ thống phát hiện các hành vi thao túng thị trường chứng khoán/crypto dựa trên phân tích tâm lý mạng xã hội và dữ liệu giao dịch.
+- **Lát cắt tôi chọn để phân tích hôm nay là:** Giúp Chuyên viên quản trị rủi ro (Risk Manager) tại các quỹ đầu tư/sàn giao dịch phát hiện sớm các chiến dịch "pump-and-dump" trên mạng xã hội trước khi giá thực tế bị đẩy lên đỉnh và sập.
 - **Vì sao tôi chọn lát cắt này:**  
-  > ___________________________________
+  > Bởi vì "bơm xả" (pump and dump) là một mô hình thao túng kinh điển nhất thể hiện rõ độ trễ giữa hoạt động hô hào trên mạng xã hội (tín hiệu sớm) và biến động giá thực tế. Nhận diện sớm mang lại ROI cắt lỗ lớn nhất.
 
 ### Viết quá rộng vs viết sắc hơn
 
@@ -121,13 +121,13 @@ Phần lớn dự án nhóm viết quá rộng ở bước này, rồi sau đó 
 ### Tóm tắt dự án trong 3 dòng
 
 1. **Nhóm tôi đang nghĩ mình đang giải quyết vấn đề gì?**  
-   > ___________________________________
+   > Các quỹ đầu tư và sàn giao dịch phải chịu tổn thất lớn từ các đợt thao túng giá (pump-and-dump) do đám đông mạng xã hội và các "finfluencer" dẫn dắt, trong khi công cụ truyền thống chỉ báo động khi giá đã sập.
 
 2. **Người dùng chính hiện nhóm đang nhắm tới là ai?**  
-   > ___________________________________
+   > Chuyên viên quản trị rủi ro (Risk Manager) hoặc Nhân viên tuân thủ (Compliance Officer) tại các tổ chức tài chính.
 
 3. **Hiện tại người dùng đó đang giải quyết vấn đề này bằng cách nào?**  
-   > ___________________________________
+   > Cài đặt cảnh báo biến động giá/khối lượng kết hợp với việc kiểm tra Twitter/Reddit một cách thủ công hoặc dùng tool social listening quá tải thông tin nhiễu.
 
 ---
 
@@ -139,21 +139,20 @@ Phần lớn dự án nhóm viết quá rộng ở bước này, rồi sau đó 
 ### Trả lời 4 câu ngắn
 
 1. **Ai đang gặp vấn đề này?**  
-   > ___________________________________
+   > Risk Manager tại các quỹ đầu tư hoặc sàn giao dịch tài sản số/cổ phiếu vốn hóa nhỏ (micro-cap).
 
 2. **Vấn đề xuất hiện trong hoàn cảnh nào?**  
-   > ___________________________________
+   > Khi một mã tài sản đột nhiên xuất hiện tần suất hô hào bất thường trên các diễn đàn (Reddit/Twitter) bởi nhiều tài khoản ảo, nhưng chưa có biến động giá.
 
 3. **Hiện tại họ đang dùng giải pháp thay thế nào?**  
-   > ___________________________________
+   > Các nền tảng cảnh báo kỹ thuật như Bloomberg Terminal, TradingView (dựa trên biểu đồ nến) và keyword tracking đơn giản.
 
 4. **Vì sao đây là thời điểm đáng giải?**  
-   > ___________________________________
+   > Các mô hình ngôn ngữ lớn chuyên ngành (như FinBERT) hiện tại đã đủ mạnh để phân biệt giữa một bài phân tích cơ bản "bullish" (chính thống) và một bài "hô hào bơm giá" mang tính thao túng bầy đàn.
 
 ### Tóm tắt market context trong 3-4 dòng
 
-> _______________________________________________  
-> _______________________________________________
+> Các chuyên viên quản trị rủi ro đang thiếu công cụ phát hiện sớm các chiến dịch bơm thổi giá (pump-and-dump) từ mạng xã hội. Họ phụ thuộc vào các chỉ báo giá/khối lượng vốn dĩ có độ trễ (lagging indicator), dẫn đến việc phản ứng quá muộn. Việc áp dụng NLP chuyên ngành tài chính sẽ giúp họ "đọc vị" tâm lý đám đông và nhận diện bất thường trước khi thị trường tài chính phản ứng.
 
 ---
 
@@ -174,9 +173,9 @@ Phần lớn dự án nhóm viết quá rộng ở bước này, rồi sau đó 
 
 ### Điền
 
-- **Job executor của dự án này là:** ___________________________________
+- **Job executor của dự án này là:** Chuyên viên quản trị rủi ro (Risk Manager)
 - **Vì sao tôi tin đây là người trực tiếp "thuê" giải pháp để làm job:**  
-  > ___________________________________
+  > Họ là người trực tiếp quan sát màn hình giám sát hàng ngày và chịu trách nhiệm đưa ra quyết định hoặc cảnh báo để chặn giao dịch / cắt vị thế khi một tài sản có dấu hiệu rủi ro vỡ bong bóng.
 
 ---
 
@@ -200,23 +199,23 @@ Phần lớn dự án nhóm viết quá rộng ở bước này, rồi sau đó 
 
 ### 3 tiêu chí tự kiểm
 
-- [ ] Nếu bỏ tool hiện tại đi, job này vẫn còn tồn tại
-- [ ] Trong câu không có tên sản phẩm, AI, chatbot, app, màn hình
-- [ ] Câu đang mô tả **điều user muốn hoàn thành**, không phải thứ product đang làm
+- [x] Nếu bỏ tool hiện tại đi, job này vẫn còn tồn tại
+- [x] Trong câu không có tên sản phẩm, AI, chatbot, app, màn hình
+- [x] Câu đang mô tả **điều user muốn hoàn thành**, không phải thứ product đang làm
 
 ### Bản nháp 1
 
 **Core JTBD bản nháp:**  
-> _______________________________________________
+> Phát hiện sớm các đợt pump and dump bằng AI FinBERT để giảm thiểu tổn thất.
 
 ### Gạch bỏ từ solution nếu có
 
-- Các từ solution tôi đang lỡ nhét vào câu: _________________________________
+- Các từ solution tôi đang lỡ nhét vào câu: AI FinBERT, pump and dump (thuật ngữ mô tả problem).
 
 ### Bản chốt
 
 **Core JTBD cuối cùng:**  
-> _______________________________________________
+> Nhận diện sớm các dấu hiệu hô hào thao túng giá có chủ đích từ cộng đồng trước khi thanh khoản thị trường kịp phản ứng.
 
 ---
 
@@ -239,15 +238,15 @@ When [trigger], I want to [motivation], so I can [outcome].
 
 | # | Trigger / When | Motivation / I want to | Outcome / so I can | Điều story này cho thấy |
 |---|---|---|---|---|
-| JS1 | | | | |
-| JS2 | | | | |
-| JS3 | | | | |
+| JS1 | lượng bài đăng về một mã vốn hóa nhỏ (micro-cap) tăng vọt trên Reddit | đánh giá ngay lập tức xem đó là thảo luận tự nhiên hay hô hào có tổ chức | đưa ra quyết định cắt vị thế sớm trước khi đám đông xả hàng (dump) | Tốc độ phân tích ngữ cảnh đám đông là yếu tố quyết định. |
+| JS2 | nhận được một cảnh báo khối lượng giao dịch tăng bất thường từ hệ thống cũ | đối chiếu ngay với diễn biến tâm lý trên mạng xã hội trong 24h qua | xác nhận đây là một đợt thao túng giá hay do có tin tức tài chính thật sự | User cần kết nối dữ liệu cấu trúc (giá) và phi cấu trúc (social). |
+| JS3 | mở đầu phiên giao dịch hàng ngày | nhìn thấy danh sách các tài sản đang có điểm rủi ro thao túng cao nhất | đưa chúng vào watchlist giám sát đặc biệt trong phiên | Cần một công cụ proactive (chủ động báo trước) thay vì reactive. |
 
 ### Tự kiểm nhanh
 
-- [ ] Mỗi story là một **tình huống thật**, không phải slogan chung chung
-- [ ] 3 story không trùng hệt nhau
-- [ ] Sau khi đọc 3 story, tôi hình dung được lúc nào product của mình đáng xuất hiện
+- [x] Mỗi story là một **tình huống thật**, không phải slogan chung chung
+- [x] 3 story không trùng hệt nhau
+- [x] Sau khi đọc 3 story, tôi hình dung được lúc nào product của mình đáng xuất hiện
 
 ---
 
@@ -268,14 +267,14 @@ Qua JTBD lens, đối thủ không chỉ là app cùng ngành.
 
 | Alternative hiện tại | User đang thuê nó để làm gì? | Nó làm tốt gì? | Nó fail ở đâu? | Switching cost hiện tại cao hay thấp? |
 |---|---|---|---|---|
-| Alt 1 | | | | |
-| Alt 2 | | | | |
-| Alt 3 | | | | |
+| Cảnh báo giá/khối lượng (TradingView/Bloomberg) | Biết khi nào thị trường đang biến động cực độ | Dữ liệu chính xác, realtime, đáng tin cậy tuyệt đối | Có độ trễ (lagging indicator). Khi hệ thống báo động thì giá đã ở đỉnh hoặc đang sập (dump). | Cao (rất khó bỏ tool truyền thống) |
+| Kiểm tra tay trên Twitter/Reddit | Đọc hiểu ngữ cảnh xem cộng đồng đang nói gì về mã đó | Con người đọc hiểu được tiếng lóng (slang), emoji rủi ro. | Quá tải thông tin, không thể scale, phụ thuộc nhiều vào cảm tính cá nhân. | Trung bình |
+| Công cụ Social Listening thông thường (Meltwater) | Đếm số lượng mention (đề cập) của mã chứng khoán | Gom data tự động, giao diện trực quan. | Chỉ đếm keyword, dễ báo động giả vì không hiểu được semantic của từ "bullish" vs "pump". | Trung bình |
 
 ### Kết luận nhanh
 
 **Nếu project của tôi biến mất hôm nay, user nhiều khả năng sẽ quay về:**  
-> _______________________________________________
+> Sử dụng cảnh báo giá/khối lượng trễ kết hợp với việc cắt cử một team thực tập sinh trực Twitter/Reddit thủ công.
 
 ---
 
@@ -310,23 +309,22 @@ Mục tiêu là nhìn ra:
 
 | Step | Trong workflow này user đang cố làm gì? | Hôm nay họ đang dùng gì? | Friction / pain hiện tại | Mức đau |
 |---|---|---|---|---|
-| Define | | | | Low / Med / High |
-| Locate | | | | Low / Med / High |
-| Prepare | | | | Low / Med / High |
-| Confirm | | | | Low / Med / High |
-| Execute | | | | Low / Med / High |
-| Monitor | | | | Low / Med / High |
-| Modify | | | | Low / Med / High |
-| Conclude | | | | Low / Med / High |
+| Define | Xác định danh sách các tài sản rủi ro (micro-cap) cần theo dõi | Danh mục đầu tư hiện tại. | Quá nhiều mã trên thị trường. | Low |
+| Locate | Gom bài đăng, thảo luận về mã đó trên social media | Search Twitter, Reddit thủ công. | Nhiều rác, khó thu thập đồng bộ. | Med |
+| Prepare | Đọc hiểu, lọc nhiễu và phân loại ý định của hàng nghìn bài viết | Đọc bằng mắt hoặc dùng filter từ khóa cơ bản. | Không thể tự đọc nổi. Đếm từ khóa thì bị báo động giả cực nhiều (False Positives). | High |
+| Confirm | Kết nối "sentiment" đó với hành vi giao dịch thực tế để xác nhận rủi ro | Mở song song Twitter và màn hình TradingView. | Mất quá nhiều thời gian đối chiếu thủ công, lúc xác nhận xong thì đã muộn. | High |
+| Execute | Ra lệnh cắt vị thế / đóng giao dịch | Nền tảng trade nội bộ. | N/A | Low |
+| Monitor | Theo dõi hậu quả sau khi cắt | PnL dashboard. | N/A | Low |
+| Modify | Cập nhật lại điều kiện cảnh báo | Chỉnh thông số tay. | Đòi hỏi nhiều rule tĩnh. | Med |
+| Conclude | Lập báo cáo sự kiện thao túng | Gõ Word/Email. | Mất thời gian viết tay. | Low |
 
 ### Chốt 2 bước đau nhất
 
-**Bước đau nhất #1:** _________________________________  
-**Bước đau nhất #2:** _________________________________
+**Bước đau nhất #1:** Prepare (Lọc nhiễu ngữ nghĩa tài chính và phân loại ý định thao túng)  
+**Bước đau nhất #2:** Confirm (Kết nối và đối chiếu sự kiện mạng xã hội với dữ liệu thị trường)
 
 **Vì sao đây là nơi đáng chú ý nhất:**  
-> _______________________________________________  
-> _______________________________________________
+> Đây là nút thắt cổ chai về mặt nhận thức (cognitive bottleneck). Risk Manager không thể đọc hiểu và đánh giá 100,000 bài tweet trong vòng 5 phút, và nếu họ chờ biểu đồ giá xác nhận, họ sẽ mất đi "temporal window" - khoảng thời gian vàng trước khi đợt xả (dump) diễn ra.
 
 ---
 
@@ -345,16 +343,16 @@ Sau khi map workflow, mới hỏi:
 
 | Step | AI nên giúp bằng cách nào? | Vì sao AI hợp ở đây? | Rủi ro chính nếu dùng AI |
 |---|---|---|---|
-| 1 | | | |
-| 2 | | | |
+| Prepare | Dùng Domain-Adaptive NLP (như FinBERT) để đọc hiểu tiếng lóng tài chính và phân loại ý định thao túng thay vì chỉ đếm keyword. | AI có thể đọc hàng triệu bài viết một giây và xử lý được quan hệ ngữ nghĩa (Word Embeddings) mà công cụ cũ không làm được. | AI vẫn bị đánh lừa bởi bot nếu hành vi ngôn ngữ của bot quá giống người (Adversarial attack). |
+| Confirm | Dùng Machine Learning (như XGBoost) để kết hợp "Sentiment Score" với "Volume/Price Indicators" tạo ra xác suất rủi ro. | ML giải quyết tốt bài toán Pattern Recognition từ nhiều luồng dữ liệu khác biệt (multimodal fusion). | Rủi ro imbalanced data: tỷ lệ báo động giả có thể quá cao khiến user tắt thông báo. |
 
 ### Kết luận nhanh
 
 **AI leverage point quan trọng nhất của dự án tôi là:**  
-> _______________________________________________
+> Dùng mô hình ngôn ngữ chuyên biệt ngành tài chính (FinBERT) kết hợp với Gradient Boosting (XGBoost) để tự động hóa hoàn toàn bước "Prepare & Confirm" — xử lý hàng triệu tín hiệu nhiễu thành một điểm số rủi ro thao túng (Manipulation Risk Score) duy nhất.
 
 **Vì sao không phải ở bước khác:**  
-> _______________________________________________
+> Việc cắt vị thế (Execute) đòi hỏi quyết định tài chính pháp lý của con người, AI không nên tự động trade. AI chỉ nên ở bước trinh sát và cảnh báo sớm.
 
 ---
 
@@ -373,13 +371,15 @@ vì [giá trị rõ nhất].
 
 ### Bản hypothesis của tôi
 
-> _______________________________________________  
-> _______________________________________________
+> Nếu chúng ta giúp Chuyên viên quản trị rủi ro làm việc lọc nhiễu và đối chiếu dữ liệu thao túng tốt hơn ở bước Prepare & Confirm,  
+> bằng cách sử dụng AI NLP để tự động đọc hiểu ngữ cảnh tài chính kết hợp tính toán xác suất bằng Machine Learning,  
+> thì họ sẽ chuyển từ việc phụ thuộc vào cảnh báo biểu đồ giá trễ sang sử dụng hệ thống cảnh báo sớm của nhóm,  
+> vì hệ thống giúp họ khai thác được "khoảng thời gian vàng" (window of opportunity) để cắt lỗ trước khi hiệu ứng xả (dump) xảy ra.
 
 ### Tín hiệu sớm nếu hypothesis này đúng
 
-1. _______________________________________________
-2. _______________________________________________
+1. Hệ thống phát tín hiệu cảnh báo trung bình sớm hơn 5-15 phút so với biến động giá trên biểu đồ thực tế.
+2. Tỷ lệ báo động giả (False Positives) ở mức chấp nhận được và Risk Manager sử dụng điểm rủi ro làm tiêu chuẩn tham chiếu hàng ngày.
 
 ---
 
@@ -399,15 +399,13 @@ Job story chưa có research vẫn chỉ là **giả thuyết tốt hơn**, chư
 
 | Assumption | Vì sao assumption này rủi ro? | Tôi đang có bằng chứng gì? | Cần validate bằng cách nào tiếp theo? |
 |---|---|---|---|
-| A1 | | | |
-| A2 | | | |
-| A3 | | | |
-| A4 | | | |
-| A5 | | | |
+| A1: Có một khoảng thời gian trễ thực sự giữa hành vi hô hào mạng xã hội và khi giá sập (dump). | Nếu thị trường hiệu quả hoàn toàn (EMH), giá sẽ phản ứng tức thì với tin tức, khiến hệ thống không còn thời gian để báo động. | Dữ liệu lịch sử của vụ GameStop/AMC cho thấy Limits of Arbitrage có tồn tại độ trễ. | Phân tích hồi quy (backtest) trên dữ liệu lịch sử các mã đã từng bị thao túng. |
+| A2: AI NLP (FinBERT) đủ sức phân biệt bài phân tích "bullish" hợp lệ và bài "pump" thao túng. | Ngôn ngữ thao túng tài chính rất tinh vi, nhiều sarcasm/irony. Nếu AI sai nhiều, user sẽ mất niềm tin. | Các bài nghiên cứu chỉ ra FinBERT tốt hơn rõ rệt so với từ điển truyền thống. | Phải chạy thử nghiệm đánh giá Precision-Recall trên một tập dữ liệu test được label bằng tay. |
+| A3: Risk Manager dám hành động dựa trên "Sentiment Score" thay vì số liệu cứng. | Sentiment là thứ "mềm", trong khi giới tài chính quen nhìn số liệu "cứng". | Xu hướng các quỹ quant ngày càng mua nhiều dữ liệu alternative data (sentiment). | Phỏng vấn trực tiếp 3 Risk Manager để xem họ cần độ chính xác (Precision) bao nhiêu thì mới dám tin. |
 
 ### Assumption nguy hiểm nhất nếu tôi đang sai
 
-> _______________________________________________
+> **A1.** Nếu khoảng thời gian trễ (temporal window) không tồn tại hoặc quá ngắn (dưới vài giây) do các thuật toán High-Frequency Trading (HFT) đã phản ứng ngay lập tức, thì giá trị "phát hiện sớm" của hệ thống NLP sẽ hoàn toàn sụp đổ.
 
 ---
 
@@ -431,9 +429,9 @@ Job story chưa có research vẫn chỉ là **giả thuyết tốt hơn**, chư
 
 | Ý phản biện tôi nghe được | Nó chạm vào phần nào? | Tôi sẽ giữ / sửa gì? |
 |---|---|---|
-| | | |
-| | | |
-| | | |
+| Liệu Risk Manager có thực sự là người quyết định cắt vị thế hay hệ thống tự động làm? | Job Executor | Cần bổ sung ý: hệ thống đóng vai trò "cố vấn", con người vẫn duyệt lệnh cuối. |
+| AI có bắt được các bài hô hào trong group kín (Telegram/Discord) không? | Locate | Rất khó. Sẽ giới hạn phạm vi rủi ro ở các nguồn dữ liệu công khai (Twitter/Reddit). |
+| Báo động giả nhiều quá thì sao? (Accuracy Paradox) | Confirm & AI Leverage | Sửa lại AI leverage, nhấn mạnh vào việc đo lường PR-AUC thay vì Accuracy để giảm false positives. |
 
 ---
 
@@ -441,52 +439,52 @@ Job story chưa có research vẫn chỉ là **giả thuyết tốt hơn**, chư
 
 ### Sau khi nghe phản biện, tôi thay đổi gì?
 
-- [ ] Giữ nguyên `job executor`
+- [x] Giữ nguyên `job executor`
 - [ ] Sửa `job executor`
 - [ ] Giữ nguyên `core JTBD`
-- [ ] Sửa `core JTBD`
-- [ ] Giữ nguyên `AI leverage point`
+- [x] Sửa `core JTBD`
+- [x] Giữ nguyên `AI leverage point`
 - [ ] Sửa `AI leverage point`
 - [ ] Giữ nguyên `product hypothesis`
-- [ ] Sửa `product hypothesis`
+- [x] Sửa `product hypothesis`
 
 ### Vì sao tôi giữ / sửa?
 
-> _______________________________________________  
-> _______________________________________________
+> Tôi sửa một chút ở Core JTBD để nhấn mạnh giới hạn là "từ các nền tảng công cộng", vì chúng ta không thể thu thập data từ group kín. Đồng thời bổ sung ý "AI làm cố vấn cảnh báo" thay vì tự động cắt lệnh ở phần hypothesis để thực tế hơn với workflow của Risk Manager.
 
 ### Version cuối cùng tôi nộp
 
 **Job executor:**  
-> _______________________________________________
+> Chuyên viên quản trị rủi ro (Risk Manager) hoặc Nhân viên tuân thủ (Compliance Officer)
 
 **Core JTBD:**  
-> _______________________________________________
+> Nhận diện sớm các dấu hiệu hô hào thao túng giá có chủ đích trên các cộng đồng công cộng (Reddit/Twitter) trước khi thanh khoản thị trường kịp phản ứng cực đoan.
 
 **2 bước đau nhất trong workflow:**  
-> _______________________________________________
+> 1. Đọc và lọc nhiễu ngữ nghĩa tài chính từ hàng triệu tin bài (Prepare).  
+> 2. Đối chiếu tín hiệu xã hội với biến động giá để xác nhận mức độ rủi ro (Confirm).
 
 **AI leverage point chính:**  
-> _______________________________________________
+> Áp dụng NLP (FinBERT) và Machine Learning (XGBoost) làm màng lọc nhận thức tự động ở bước Prepare & Confirm, chuyển đổi dữ liệu thô phi cấu trúc thành Điểm Rủi Ro (Risk Score) theo thời gian thực.
 
 **Product hypothesis:**  
-> _______________________________________________
+> Nếu chúng ta giúp Risk Manager lọc nhiễu và đối chiếu dữ liệu tốt hơn bằng cách cung cấp Điểm Rủi Ro Thao Túng từ mô hình AI, thì họ sẽ kết hợp nó song song với công cụ biểu đồ truyền thống, vì nó giúp họ mua thêm "thời gian vàng" (window of opportunity) để đưa ra quyết định ngăn chặn tổn thất.
 
 **Assumption cần validate đầu tiên:**  
-> _______________________________________________
+> Tồn tại một khoảng thời gian trễ có thể khai thác được (exploitable lag) giữa hoạt động hô hào (pump) trên mạng xã hội và đợt xả hàng (dump) trên thị trường thật.
 
 ---
 
 ## Checklist trước khi nộp
 
-- [ ] Tôi đã khoanh đúng 1 lát cắt cụ thể của dự án.
-- [ ] Tôi đã phân biệt được `job executor` với buyer / influencer.
-- [ ] `Core JTBD` của tôi không nhét solution vào câu.
-- [ ] Tôi đã viết đủ 3 `job stories`.
-- [ ] Tôi đã điền `JTBD lite map` và khoanh ra 2 bước đau nhất.
-- [ ] Tôi đã chỉ ra `AI leverage point` thay vì nhảy thẳng vào feature list.
-- [ ] Tôi đã ghi rõ `assumptions to validate`.
-- [ ] Tôi đã sửa version cuối sau khi share trong bàn.
+- [x] Tôi đã khoanh đúng 1 lát cắt cụ thể của dự án.
+- [x] Tôi đã phân biệt được `job executor` với buyer / influencer.
+- [x] `Core JTBD` của tôi không nhét solution vào câu.
+- [x] Tôi đã viết đủ 3 `job stories`.
+- [x] Tôi đã điền `JTBD lite map` và khoanh ra 2 bước đau nhất.
+- [x] Tôi đã chỉ ra `AI leverage point` thay vì nhảy thẳng vào feature list.
+- [x] Tôi đã ghi rõ `assumptions to validate`.
+- [x] Tôi đã sửa version cuối sau khi share trong bàn.
 
 ---
 
